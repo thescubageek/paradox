@@ -17,6 +17,7 @@ gem "ranked-model"
 gem "retriable", '~> 2.1'
 
 gem "pg"
+gem "listen"
 gem "rack-cors"
 
 gem 'puma', '~> 3.3'
