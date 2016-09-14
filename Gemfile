@@ -55,11 +55,8 @@ group :development do
 end
 
 group :development, :test do
-  # secrets
   gem "dotenv-rails", "~> 0.11.1"
-  # debugging
   gem "pry-byebug"
-  # server processes runner
   gem "foreman"
 end
 
